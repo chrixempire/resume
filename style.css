@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* padding: 5%; */
+}
+#first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 0px 0px 0px 50px;
+}
+#name h1{
+    font-size: 50px;
+    color: blue;
+}
+#name h3{
+    font-size: 25px;
+    color: blue;
+}
+.linkin{
+    display: flex;
+    gap: 10px;
+}
+.email{
+    display: flex;
+    gap: 10px;
+}
+.job{
+    margin-left: 5px;
+}
+.place{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+  
+}
+#about{
+    width: 40%;
+}
+.number{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+i{
+    font-size: 30px;
+    color: blue;
+}
+.email a{
+    font-size: 27px;
+    text-decoration: none;
+    color: black;
+}
+.number a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+.second, .third, .forth, .fifth, .sixth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    /* border: 1px solid red; */
+}
+.prof{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 40%;
+    color: blue;
+}
+.prof i{
+    font-size: 40px;
+    margin-right: 5px;
+}
+#speech, #spech, #spich{
+    width: 40%;
+    font-size: 27px;
+    text-align: justify;
+}
+#spech ul, #speech ul{
+    padding-left: 25px;
+}
+#spech ul li{
+    font-size: 27px;
+}
+#spich p{
+    font-size: 27px;
+    font-weight: 1000;
+    /* text-decoration: underline; */
+}
+#spich p span{
+    font-weight: 100;
+    text-decoration: none;
+}
+.study{
+    margin-bottom: px;
+}
+h3{
+    font-weight: 200px;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-size: 35px;
+}
+hr{
+    height: 3px;
+    background-color: grey;
+    margin: 5px 0px;
+}
+.speech{
+    font-weight: 100;
+}
+.love{
+    display: flex;
+    gap: 45px;
+}
+@media screen and (max-width: 1550px) {
+    body{
+        padding: 2% 5%;
+    }
+    
+}
